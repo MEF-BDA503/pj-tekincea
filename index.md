@@ -1,4 +1,4 @@
-# Example Progress Journal
+# Ahmetcan Tekince Progress Journal
 
 ## Week 2 (Oct 10)
 
