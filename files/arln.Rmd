@@ -1,0 +1,15 @@
+---
+title: "Airline"
+output: html_document
+---
+
+##Airline costs by year data was summarized by averaging costs by years and plotting them using ggplot2.
+
+###Steps
+
+####CSV file was imported using readr()
+####One colmun name had to be changed.
+####Then the d.f1 data table was created by aggregate(cost~year,Airline,mean)
+####Next ggplot was used to visualize this summary.
+####The plot can be viewed using the link below.
+####http://rpubs.com/tekincea/arln
