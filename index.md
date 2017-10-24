@@ -3,9 +3,9 @@
 
 ## Week 3 (Oct 24)
 
-* I chose a simple dataset of airline cost data. Which is for 6 airlines and for 15 years.
-+ [Here](https://raw.githubusercontent.com/vincentarelbundock/Rdatasets/master/csv/Ecdat/Airline.csv) is my small dataset.
-* Our project will be on a larger dataset, our group name will be GROUP NAME and other members are İsmetcan, Volkan and Ceren.
+* We chose a dataset of NYC Transport Statistics. It contains periodic data recorded from NYC Buses - Location, Time, Schedule & some more.
++ [Here](https://www.kaggle.com/stoney71/new-york-city-transport-statistics) is our dataset.
+* We may find out the busiest bus lines, streets and our group name will be NYC and other members are İsmetcan, Volkan and Ceren.
 
 ### Udacity Update
 
