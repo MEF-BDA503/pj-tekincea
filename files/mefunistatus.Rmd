@@ -1,0 +1,27 @@
+---
+title: "mefunistatus"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+library(tidyverse)
+
+```
+
+```{r} 
+load("osym_data_2017.RData")
+arrange(osym_data_2017,exam_type,desc(min_score))
+sirali1 <- arrange(osym_data_2017,desc(min_score),exam_type)
+sirali2 <- sirali1 %>% mutate(sira=row_number())
+MEFS <- filter(sirali2, university_name == "MEF ÜNÝVERSÝTESÝ")
+MEFS2 <- filter(MEFS,sira<1000)
+```
+
+```{r}
+ggplot(MEFS2, aes(sira,program_name),e) + geom_point()
+
+```
+
+
